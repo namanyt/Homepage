@@ -1,11 +1,11 @@
-import PropTypes from 'prop-types'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
-import faDiscord from '@fortawesome/fontawesome-free-brands/faDiscord'
-import faSpotify from '@fortawesome/fontawesome-free-brands/faSpotify'
-import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
-import faSoundcloud from '@fortawesome/fontawesome-free-brands/faSoundcloud'
+import PropTypes from "prop-types";
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import faTwitter from "@fortawesome/fontawesome-free-brands/faTwitter";
+import faDiscord from "@fortawesome/fontawesome-free-brands/faDiscord";
+import faSpotify from "@fortawesome/fontawesome-free-brands/faSpotify";
+import faInstagram from "@fortawesome/fontawesome-free-brands/faInstagram";
+import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
+import faSoundcloud from "@fortawesome/fontawesome-free-brands/faSoundcloud";
 
 class Main extends React.Component {
 	render() {
@@ -13,22 +13,22 @@ class Main extends React.Component {
 			<div
 				className="close"
 				onClick={() => {
-					this.props.onCloseArticle()
+					this.props.onCloseArticle();
 				}}
 			></div>
-		)
+		);
 
 		return (
 			<div
 				id="main"
-				style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
+				style={this.props.timeout ? { display: "flex" } : { display: "none" }}
 			>
 				<article
 					id="work"
-					className={`${this.props.article === 'work' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
+					className={`${this.props.article === "work" ? "active" : ""} ${
+						this.props.articleTimeout ? "timeout" : ""
 					}`}
-					style={{ display: 'none' }}
+					style={{ display: "none" }}
 				>
 					<h2 className="major">Works</h2>
 					<span className="image main">
@@ -37,9 +37,10 @@ class Main extends React.Component {
 					<ul className="actions vertical">
 						<li>
 							<strong>
-								<a href="/bot">Bucky</a>
+								<a href="/tech-preneur">Joyful Merger</a>
 							</strong>
-							: {'\u00A0'} <span> An Activity Discord Generator Bot </span>
+							: {"\u00A0"}{" "}
+							<span> A solution to the problem of stubble farming </span>
 						</li>
 						<li>
 							<strong>
@@ -47,33 +48,33 @@ class Main extends React.Component {
 									Flappy Bird
 								</a>
 							</strong>
-							: {'\u00A0'} <span> A Simple Flappy Bird Game made in c++ </span>
+							: {"\u00A0"} <span> A Simple Flappy Bird Game made in c++ </span>
 						</li>
 						<li>
 							<strong>
 								<a href="https://animebinge.xyz/">Anime Binge</a>
 							</strong>
-							: {'\u00A0'} <span> A Free and No Ad site to watch anime </span>
+							: {"\u00A0"} <span> A Free and No Ad site to watch anime </span>
 						</li>
 						<li>
 							<strong>
 								<a href="https://chat.ciderboi.xyz">DChat App</a>
 							</strong>
-							: {'\u00A0'}{' '}
+							: {"\u00A0"}{" "}
 							<span> A Chat App made using React and Firebase </span>
 						</li>
 						<li>
 							<strong>
 								<a href="https://github.com/parafoxia/chatto">Chatto</a>
 							</strong>
-							: {'\u00A0'}{' '}
+							: {"\u00A0"}{" "}
 							<span> A Chat bot API for youtube and twitch bots </span>
 						</li>
 						<li>
 							<strong>
 								<a href="https://cavecraft.in">Cave Craft</a>
 							</strong>
-							: {'\u00A0'} <span> A Minecraft Server Network </span>
+							: {"\u00A0"} <span> A Minecraft Server Network </span>
 						</li>
 					</ul>
 					{close}
@@ -81,10 +82,10 @@ class Main extends React.Component {
 
 				<article
 					id="about"
-					className={`${this.props.article === 'about' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
+					className={`${this.props.article === "about" ? "active" : ""} ${
+						this.props.articleTimeout ? "timeout" : ""
 					}`}
-					style={{ display: 'none' }}
+					style={{ display: "none" }}
 				>
 					<h2 className="major">About</h2>
 					<span className="main">
@@ -92,16 +93,16 @@ class Main extends React.Component {
 							loading="lazy"
 							src="/static/images/cider.gif"
 							style={{
-								margin: 'auto',
-								marginBottom: 'calc(30px - 1em)',
-								marginLeft: 'calc(50% - 50px)',
-								borderRadius: '10px',
-								boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+								margin: "auto",
+								marginBottom: "calc(30px - 1em)",
+								marginLeft: "calc(50% - 50px)",
+								borderRadius: "10px",
+								boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
 							}}
 							alt=""
 						/>
 					</span>
-					<p style={{ textAlign: 'center' }}>
+					<p style={{ textAlign: "center" }}>
 						Hello, I'm Cider aka "Naman", <br />
 						I'm a Developer, Producer and a Student, currently in 10th
 					</p>
@@ -110,15 +111,15 @@ class Main extends React.Component {
 
 				<article
 					id="music"
-					className={`${this.props.article === 'music' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
+					className={`${this.props.article === "music" ? "active" : ""} ${
+						this.props.articleTimeout ? "timeout" : ""
 					}`}
-					style={{ display: 'none' }}
+					style={{ display: "none" }}
 				>
 					<h2 className="major">Music</h2>
 
 					<iframe
-						style={{ borderRadius: '12px', marginLeft: '-2%' }}
+						style={{ borderRadius: "12px", marginLeft: "-2%" }}
 						src="https://open.spotify.com/embed/track/0zgtfQijIBkbSxVasftDzp?utm_source=generator"
 						width="50%"
 						height="380"
@@ -129,7 +130,7 @@ class Main extends React.Component {
 					/>
 
 					<iframe
-						style={{ borderRadius: '12px', marginLeft: '2%' }}
+						style={{ borderRadius: "12px", marginLeft: "2%" }}
 						src="https://open.spotify.com/embed/track/5Wuoe8VwPAxPYMpuxxfHEW?utm_source=generator"
 						width="50%"
 						height="380"
@@ -140,7 +141,7 @@ class Main extends React.Component {
 					/>
 
 					<iframe
-						style={{ borderRadius: '12px', marginLeft: '-2%' }}
+						style={{ borderRadius: "12px", marginLeft: "-2%" }}
 						src="https://open.spotify.com/embed/track/2jS2ff1rtwWdJR9OvTtZxu?utm_source=generator"
 						width="50%"
 						height="380"
@@ -151,7 +152,7 @@ class Main extends React.Component {
 					/>
 
 					<iframe
-						style={{ borderRadius: '12px', marginLeft: '2%' }}
+						style={{ borderRadius: "12px", marginLeft: "2%" }}
 						src="https://open.spotify.com/embed/track/2a9CojkCOevzsLodWAzhW6?utm_source=generator"
 						width="50%"
 						height="380"
@@ -166,54 +167,54 @@ class Main extends React.Component {
 
 				<article
 					id="contact"
-					className={`${this.props.article === 'contact' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
+					className={`${this.props.article === "contact" ? "active" : ""} ${
+						this.props.articleTimeout ? "timeout" : ""
 					}`}
-					style={{ display: 'none' }}
+					style={{ display: "none" }}
 				>
 					<h2 className="major">Links</h2>
 					<ul className="icons">
 						<li>
 							<a href="/twitter">
 								<FontAwesomeIcon icon={faTwitter} />
-							</a>{' '}
-							Twitter{' '}
+							</a>{" "}
+							Twitter{" "}
 						</li>
 						<li>
 							<a href="/discord">
 								<FontAwesomeIcon icon={faDiscord} />
-							</a>{' '}
-							Discord{' '}
+							</a>{" "}
+							Discord{" "}
 						</li>
 						<li>
 							<a href="/spotify">
 								<FontAwesomeIcon icon={faSpotify} />
-							</a>{' '}
-							Spotify{' '}
+							</a>{" "}
+							Spotify{" "}
 						</li>
 						<li>
 							<a href="/instagram">
 								<FontAwesomeIcon icon={faInstagram} />
-							</a>{' '}
-							Instagram{' '}
+							</a>{" "}
+							Instagram{" "}
 						</li>
 						<li>
 							<a href="/github">
 								<FontAwesomeIcon icon={faGithub} />
-							</a>{' '}
-							Github{' '}
+							</a>{" "}
+							Github{" "}
 						</li>
 						<li>
 							<a href="/soundcloud">
 								<FontAwesomeIcon icon={faSoundcloud} />
-							</a>{' '}
-							SoundCloud{' '}
+							</a>{" "}
+							SoundCloud{" "}
 						</li>
 					</ul>
 					{close}
 				</article>
 			</div>
-		)
+		);
 	}
 }
 
@@ -223,6 +224,6 @@ Main.propTypes = {
 	articleTimeout: PropTypes.bool,
 	onCloseArticle: PropTypes.func,
 	timeout: PropTypes.bool,
-}
+};
 
-export default Main
+export default Main;
