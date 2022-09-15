@@ -241,3 +241,4 @@ Error.getInitialProps = ({ res, err }) => {
 }
 
 export default Error;
+export { NotFoundTitle, ServerError, ServerOverload };
