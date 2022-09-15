@@ -419,7 +419,7 @@ $vendor-values: ("filter", "flex", "linear-gradient", "radial-gradient", "transf
 /// @param {map} $x Breakpoints.
 ///
 @mixin skel-breakpoints($x: ()) {
-	$breakpoints: $x ;
+	$breakpoints: $x !global;
 }
 
 ///

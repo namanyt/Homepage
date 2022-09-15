@@ -8,7 +8,7 @@ import Footer from '../components/Footer.jsx'
 import { Alert } from '@mantine/core'
 import { IconAlertCircle } from '@tabler/icons'
 
-import { HoverCard, Button, Text, Group } from '@mantine/core'
+import { HoverCard, Button, Text, Group, Notification } from '@mantine/core'
 
 class IndexPage extends React.Component {
 	constructor(props) {
@@ -83,7 +83,7 @@ class IndexPage extends React.Component {
 			>
 				<div>
 					<Head>
-						<title>Cider Boi - Homepage</title>
+						<title>Cider Boi</title>
 						<link
 							rel="shortcut icon"
 							href="/static/images/pfp-circle.png"

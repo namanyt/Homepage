@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-class DiscordRedirect extends React.Component {
+class TechRedirect extends React.Component {
 	render() {
 		return (
 			<div>
@@ -12,5 +12,4 @@ class DiscordRedirect extends React.Component {
 	}
 }
 
-export default DiscordRedirect;
-
+export default TechRedirect;

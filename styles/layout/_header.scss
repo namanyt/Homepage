@@ -79,8 +79,8 @@
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
-				padding: 3rem 2rem;
-				max-height: 40rem;
+				padding: 1.5rem 1rem;
+				max-height: 20rem;
 				overflow: hidden;
 
 				> :last-child {
@@ -88,10 +88,19 @@
 				}
 			}
 
+			h1 {
+				text-transform:uppercase;
+				font-size: 2rem;
+				letter-spacing: _font(letter-spacing);
+				line-height: .5;
+				margin-top: 10px;
+			}
+
 			p {
+				padding-top: 10px;
 				text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
-				font-size: 0.8rem;
+				font-size: 0.6rem;
 				line-height: 2;
 			}
 		}
