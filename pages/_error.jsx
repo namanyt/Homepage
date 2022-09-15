@@ -42,7 +42,7 @@ const useStyles = createStyles((theme) => ({
 	},
 }));
 
-export function NotFoundTitle() {
+function NotFoundTitle() {
 	const { classes } = useStyles();
 
 	return (
@@ -185,7 +185,7 @@ const useStyles3 = createStyles((theme) => ({
 	},
 }));
 
-export function ServerOverload() {
+function ServerOverload() {
 	const { classes } = useStyles3();
 
 	return (
