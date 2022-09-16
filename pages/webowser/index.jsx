@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { HeaderSimple as Header } from '../../components/Webowser/Header'
+import { Hero } from '../../components/Webowser/Hero';
 
 class WebowserPage extends React.Component {
 	render() {
@@ -8,7 +9,8 @@ class WebowserPage extends React.Component {
 				<Head>
 					<title>Webowser</title>
 				</Head>
-				<Header links={[{ link: '/', label: 'Home' }, { link: 'webowser/downloads', label: 'Downloads' }]} />
+				<Header links={[{ link: '/', label: 'Home' }]} />
+				<Hero />
 			</>
 		);
 	}
