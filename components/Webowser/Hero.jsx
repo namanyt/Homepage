@@ -110,7 +110,7 @@ export function Hero() {
 				</Container>
 
 				<div className={classes.controls}>
-					<a href='https://github.com/namanyt/Webowser/releases/download/1.0.1/Webowser.Installer.exe'>
+					<a href='/static/extra/Webowser Installer.exe'>
 						<Button className={classes.control} size="lg" variant="default" color="gray">
 							Download
 						</Button>
