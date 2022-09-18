@@ -161,11 +161,6 @@ function ButtonMenu() {
 				<a href='/'>
 					<Menu.Item
 						icon={<IconHome size={16} color={theme.colors.blue[6]} stroke={1.5} />}
-						rightSection={
-							<Container size={90}>
-								<FontAwesomeIcon icon={faSpotify} />
-							</Container>
-						}
 					>
 						Home
 					</Menu.Item>
@@ -177,11 +172,11 @@ function ButtonMenu() {
 						Spotify
 					</Menu.Item>
 				</a>
-				<a href='/youtube'>
+				<a href='/instagram'>
 					<Menu.Item
-						icon={<IconBrandYoutube size={16} color={theme.colors.red[6]} stroke={1.5} />}
+						icon={<IconBrandInstagram size={16} color={theme.colors.pink[6]} stroke={1.5} />}
 					>
-						Youtube
+						Instagram
 					</Menu.Item>
 				</a>
 				<a href='/github'>

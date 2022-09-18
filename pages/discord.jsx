@@ -6,16 +6,16 @@ class DiscordRedirect extends React.Component {
 			<Head>
 				<meta http-equiv="refresh" content="0; URL=https://discord.gg/h9ZVUrfnrx" />
 				<meta name="description"
-					content="Check out the The Yes Server community on Discord - hang out with 2 other members and enjoy free voice and text chat." />
+					content="Check out the Dungeon community on Discord - hang out with 2 other members and enjoy free voice and text chat." />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@discord" />
-				<meta name="twitter:title" content="Join the The Yes Server Discord Server!" />
+				<meta name="twitter:title" content="Join the Dungeon Discord Server!" />
 				<meta name="twitter:description"
-					content="Check out the The Yes Server community on Discord - hang out with 2 other members and enjoy free voice and text chat." />
-				<meta property="og:title" content="Join the The Yes Server Discord Server!" />
+					content="Check out the Dungeon community on Discord - hang out with 2 other members and enjoy free voice and text chat." />
+				<meta property="og:title" content="Join the Dungeon Discord Server!" />
 				<meta property="og:url" content="https://discord.com/invite/h9ZVUrfnrx" />
 				<meta property="og:description"
-					content="Check out the The Yes Server community on Discord - hang out with 2 other members and enjoy free voice and text chat." />
+					content="Check out the Dungeon community on Discord - hang out with 2 other members and enjoy free voice and text chat." />
 				<meta property="og:site_name" content="Discord" />
 				<meta property="og:image"
 					content="https://cdn.discordapp.com/icons/1017133847441318008/91a119961aafbda3c75f197dab53f91a.jpg?size=256" />
