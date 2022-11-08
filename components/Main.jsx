@@ -124,9 +124,20 @@ class Main extends React.Component {
 					style={{ display: "none" }}
 				>
 					<h2 className="major">Music</h2>
+					
+					<iframe
+						style={{ borderRadius: '12px', marginLeft: '-2%'}}
+						src="https://open.spotify.com/embed/track/1wxLehxgqunhJ1FSTqP0Kq?si=bbc0380879524dc9"
+						width="50%"
+						height="380"
+						frameBorder="0"
+						allowFullScreen=""
+						allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+						loading="lazy"
+					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "-2%" }}
+						style={{ borderRadius: "12px", marginLeft: "2%" }}
 						src="https://open.spotify.com/embed/track/0zgtfQijIBkbSxVasftDzp?utm_source=generator"
 						width="50%"
 						height="380"
@@ -137,7 +148,7 @@ class Main extends React.Component {
 					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "2%" }}
+						style={{ borderRadius: "12px", marginLeft: "-2%" }}
 						src="https://open.spotify.com/embed/track/5Wuoe8VwPAxPYMpuxxfHEW?utm_source=generator"
 						width="50%"
 						height="380"
@@ -148,7 +159,7 @@ class Main extends React.Component {
 					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "-2%" }}
+						style={{ borderRadius: "12px", marginLeft: "2%" }}
 						src="https://open.spotify.com/embed/track/2jS2ff1rtwWdJR9OvTtZxu?utm_source=generator"
 						width="50%"
 						height="380"
@@ -159,7 +170,7 @@ class Main extends React.Component {
 					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "2%" }}
+						style={{ borderRadius: "12px", marginLeft: "-2%" }}
 						src="https://open.spotify.com/embed/track/2a9CojkCOevzsLodWAzhW6?utm_source=generator"
 						width="50%"
 						height="380"
