@@ -25,14 +25,13 @@ class Main extends React.Component {
 			>
 				<article
 					id="work"
-					className={`${this.props.article === "work" ? "active" : ""} ${
-						this.props.articleTimeout ? "timeout" : ""
-					}`}
+					className={`${this.props.article === "work" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
+						}`}
 					style={{ display: "none" }}
 				>
 					<h2 className="major">Works</h2>
 					<span className="image main">
-						<img loading="lazy" src="/static/images/code.jpg" alt="" />
+						<img  src="/static/images/code.jpg" alt="" />
 					</span>
 					<ul className="actions vertical">
 						<li>
@@ -89,15 +88,14 @@ class Main extends React.Component {
 
 				<article
 					id="about"
-					className={`${this.props.article === "about" ? "active" : ""} ${
-						this.props.articleTimeout ? "timeout" : ""
-					}`}
+					className={`${this.props.article === "about" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
+						}`}
 					style={{ display: "none" }}
 				>
 					<h2 className="major">About</h2>
 					<span className="main">
 						<img
-							loading="lazy"
+							
 							src="/static/images/cider.gif"
 							style={{
 								margin: "auto",
@@ -118,66 +116,80 @@ class Main extends React.Component {
 
 				<article
 					id="music"
-					className={`${this.props.article === "music" ? "active" : ""} ${
-						this.props.articleTimeout ? "timeout" : ""
-					}`}
+					className={`${this.props.article === "music" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
+						}`}
 					style={{ display: "none" }}
 				>
 					<h2 className="major">Music</h2>
-					
+
+					<span
+						style={{ marginLeft: "-2%" }}
+					>
+						<iframe
+							style={{ borderRadius: "12px", marginBottom: '26px' }}
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1397990101&color=%235a5a5a&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"
+							width="50%"
+							height="350"
+							frameBorder="0"
+							allowFullScreen=""
+							allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+							
+						/>
+					</span>
+
 					<iframe
-						style={{ borderRadius: '12px', marginLeft: '-2%'}}
-						src="https://open.spotify.com/embed/track/1wxLehxgqunhJ1FSTqP0Kq?si=bbc0380879524dc9"
+						style={{ borderRadius: "12px", marginLeft: "2%" }}
+						src="https://open.spotify.com/embed/track/4vJQkoEERVm9mdd1JOks4n?utm_source=generator"
 						width="50%"
 						height="380"
 						frameBorder="0"
 						allowFullScreen=""
-						allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-						loading="lazy"
+						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+						
 					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "2%" }}
+						style={{ borderRadius: "12px", marginLeft: "-2%" }}
 						src="https://open.spotify.com/embed/track/0zgtfQijIBkbSxVasftDzp?utm_source=generator"
 						width="50%"
 						height="380"
 						frameBorder="0"
 						allowFullScreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-						loading="lazy"
+						
 					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "-2%" }}
+						style={{ borderRadius: "12px", marginLeft: "2%" }}
 						src="https://open.spotify.com/embed/track/5Wuoe8VwPAxPYMpuxxfHEW?utm_source=generator"
 						width="50%"
 						height="380"
 						frameBorder="0"
 						allowFullScreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-						loading="lazy"
+						
 					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "2%" }}
+						style={{ borderRadius: "12px", marginLeft: "-2%" }}
 						src="https://open.spotify.com/embed/track/2jS2ff1rtwWdJR9OvTtZxu?utm_source=generator"
 						width="50%"
 						height="380"
 						frameBorder="0"
 						allowFullScreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-						loading="lazy"
+						
 					/>
 
 					<iframe
-						style={{ borderRadius: "12px", marginLeft: "-2%" }}
+						style={{ borderRadius: "12px", marginLeft: "2%" }}
 						src="https://open.spotify.com/embed/track/2a9CojkCOevzsLodWAzhW6?utm_source=generator"
 						width="50%"
 						height="380"
 						frameBorder="0"
 						allowFullScreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-						loading="lazy"
+						
 					/>
 
 					{close}
@@ -185,9 +197,8 @@ class Main extends React.Component {
 
 				<article
 					id="contact"
-					className={`${this.props.article === "contact" ? "active" : ""} ${
-						this.props.articleTimeout ? "timeout" : ""
-					}`}
+					className={`${this.props.article === "contact" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
+						}`}
 					style={{ display: "none" }}
 				>
 					<h2 className="major">Links</h2>
